@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Lato:wght@300&family=Oxanium:wght@400;500;700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="src/css/responsive.css">
+
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <img src="src/imagens/logo.svg" alt="logo x-men" class="logo" />
+    </header>
+    <main class="character-selection">
+      <section class="characters">
+        <h1 class="title">Selecione um personagem</h1>
+        <ul class="character-list">
+          <li class="character selected" id="ciclope">
+            <img src="src/imagens/card-ciclope.jpg" alt="Personagem Ciclope" />
+          </li>
+          <li class="character" id="jean-grey">
+            <img
+              src="src/imagens/card-jean-grey.jpg"
+              alt="Personagem Jean Grey"
+            />
+          </li>
+          <li class="character" id="lince-negra">
+            <img
+              src="src/imagens/card-lince-negra.jpg"
+              alt="Personagem Lince Negra"
+            />
+          </li>
+          <li class="character" id="tempestade">
+            <img
+              src="src/imagens/card-tempestade.jpg"
+              alt="Personagem Tempestade"
+            />
+          </li>
+          <li class="character" id="vampira">
+            <img src="src/imagens/card-vampira.jpg" alt="Personagem Vampira" />
+          </li>
+          <li class="character" id="wolverine">
+            <img
+              src="src/imagens/card-wolverine.jpg"
+              alt="Personagem Wolverine"
+            />
+          </li>
+          <li class="character" id="noturno">
+            <img src="src/imagens/card-noturno.jpg" alt="Personagem Noturno" />
+          </li>
+          <li class="character" id="magneto">
+            <img src="src/imagens/card-magneto.jpg" alt="Personagem Magneto" />
+          </li>
+        </ul>
+      </section>
+      <section class="selected-character">
+        <img
+          class="big-character"
+          src="src/imagens/card-ciclope.png"
+          alt="Ciclope"
+        />
+
+        <div class="information-character">
+          <h2 class="character-name" id="character-name">Ciclope</h2>
+          <p class="character-description">
+            Ele tem o poder de disparar rajadas ópticas por um acidente que
+            aconteceu com ele quando criança, mas não consegue controlá-los
+          </p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
